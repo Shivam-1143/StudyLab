@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Lab</title>
+    <style>
+        .header{
+            flex-basis: auto;
+            height: 50px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            margin-top: 0px;
+        }
+        .header>div{
+            width: 80%;
+            margin: auto;  
+            display: flex;
+            justify-content: space-between;
+        }
+        .header>div>div:first-child{
+            width: 100px;
+            height: 100%;
+            background: linear-gradient(130deg, #ce4be8 0%, #207ce5 100%);
+            color: azure;
+            padding: 9px 20px;
+            font-weight: bold;
+            font-size: x-large;
+        }
+        ul{
+            width: 500px;
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+        }
+        .container{
+            width: 80%;
+            height: auto;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .container>div{
+            width: 40%;
+            height: 100%;
+            padding: 0px 40px;
+            margin-top:100px;
+        }
+        .font-f{    
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+        }
+        p{
+            color: rgb(161, 161, 161);
+        }
+        #image{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        #image>img{
+            height: 100px;
+            width: 150px;
+        }
+        #image>div{
+            width: 60%;
+            font-size: large;
+            color: rgb(68, 68, 68);
+        }
+        .study-m{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .study-m>div{
+            width: 200px;
+            margin-bottom: 50px;
+        }
+        .study-m>div>img{
+            width: 70px;
+            height: 70px;
+            border-radius : 500px;
+        }
+        .study-m>div>h3{
+            font-size: 18px;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    <div class="header font-f">
+        <div>
+            <div>StudyLab</div>
+            <ul type="none">
+                <li>Home</li>
+                <li>About</li>
+                <li>Course</li>
+                <li>Instructor</li>
+                <li>Blog</li>
+                <li>Contact</li>
+            </ul>
+        </div>  
+    </div>
+    <div class="container font-f">
+        <div>
+            <h5 style="color: rgb(27, 166, 222)";>WELCOME TO STUDYLAB</h5>
+            <h1>We Are StudyLab An Online Learning Center</h1>
+            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.
+                It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics,
+                a large language ocean.</p>
+            <div id="image">
+                <img src="https://images.unsplash.com/photo-1554415707-6e8cfc93fe23?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGVhcm5pbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="study">
+                <div>Learn anything from StudyLab, Watch video</div>
+            </div>
+        </div>
+        <div class="study-m">
+            <div>
+                <img src="https://images.unsplash.com/photo-1510070112810-d4e9a46d9e91?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHN0dWR5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="study">
+                <h3>Top Quality Content</h3>
+                <p>A small river named Duden flows by their place and supplies</p>
+            </div>
+            <div>
+                <img src="https://images.unsplash.com/photo-1510070112810-d4e9a46d9e91?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHN0dWR5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="study">
+                <h3>Highly Skilled Instructor</h3>
+                <p>A small river named Duden flows by their place and supplies</p>
+            </div>
+            <div>
+                <img src="https://images.unsplash.com/photo-1510070112810-d4e9a46d9e91?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHN0dWR5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="study">
+                <h3>World Class & Quiz</h3>
+                <p>A small river named Duden flows by their place and supplies</p>
+            </div>
+            <div>
+                <img src="https://images.unsplash.com/photo-1510070112810-d4e9a46d9e91?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHN0dWR5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="study">
+                <h3>Get Certified</h3>
+                <p>A small river named Duden flows by their place and supplies</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>	
